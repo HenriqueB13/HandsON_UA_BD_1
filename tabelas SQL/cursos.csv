@@ -1,0 +1,21 @@
+id;codigo;nome;descricao;creditos;capacidade;criado_em
+1;MAT101;Matemática Básica;Fundamentos de álgebra e aritmética;4;60;12/11/2025
+2;MAT201;Cálculo I;Derivadas e integrais básicas;4;50;12/11/2025
+3;FIS101;Física Geral;Cinemática, dinâmica e termodinâmica;4;45;12/11/2025
+4;BIO101;Biologia Geral;Conceitos fundamentais de biologia;3;40;12/11/2025
+5;QUI101;Química Geral;Estrutura atômica e ligações químicas;3;40;12/11/2025
+6;PROG101;Introdução à Programação;Lógica de programação e algoritmos;4;80;12/11/2025
+7;BD101;Banco de Dados;Modelagem relacional e SQL;4;50;12/11/2025
+8;ENG101;Inglês I;Inglês instrumental e leitura;2;120;12/11/2025
+9;HIS101;História Geral;História antiga e moderna;3;60;12/11/2025
+10;ECO101;Economia Básica;Princípios de economia;3;70;12/11/2025
+11;MAT301;Álgebra Linear;Vetores, matrizes e sistemas lineares;4;45;12/11/2025
+12;EST101;Estatística;Probabilidade e estatística descritiva;4;55;12/11/2025
+13;SIS101;Sistemas de Informação;Introdução a sistemas e requisitos;3;60;12/11/2025
+14;WEB101;Desenvolvimento Web;HTML, CSS, JavaScript básicos;3;80;12/11/2025
+15;RED101;Redes de Computadores;Camadas de rede e protocolos;4;50;12/11/2025
+16;IA101;Introdução à IA;Conceitos básicos e aplicações de IA;3;40;12/11/2025
+17;SE101;Engenharia de Software;Processos e metodologias;4;50;12/11/2025
+18;UX101;Design de UX;Princípios de interface e usabilidade;2;40;12/11/2025
+19;EMP101;Empreendedorismo;Noções de criação de startups;2;80;12/11/2025
+20;PROJ101;Gestão de Projetos;Planejamento e controle de projetos;3;60;12/11/2025
