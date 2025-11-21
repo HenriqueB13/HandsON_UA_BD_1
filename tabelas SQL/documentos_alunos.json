@@ -1,0 +1,640 @@
+[
+  {
+    "aluno_id": 1,
+    "numero_matricula": 20230001,
+    "nome": "Ana Silva",
+    "email": "ana.silva@example.com",
+    "data_nascimento": "2001-05-14",
+    "data_ingresso": "2023-03-01",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 61,
+        "curso_id": 6,
+        "data_matricula": "2024-03-01",
+        "status": "matriculado",
+        "nota": 0.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "PROG101",
+          "nome": "Introdução à Programação",
+          "descricao": "Lógica de programação e algoritmos",
+          "creditos": 4,
+          "capacidade": 80,
+          "categoria": "Programação"
+        }
+      },
+      {
+        "matricula_id": 62,
+        "curso_id": 7,
+        "data_matricula": "2024-03-02",
+        "status": "matriculado",
+        "nota": 0.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "BD101",
+          "nome": "Banco de Dados",
+          "descricao": "Modelagem relacional e SQL",
+          "creditos": 4,
+          "capacidade": 50,
+          "categoria": "Programação"
+        }
+      }
+    ],
+    "total_matriculas": 2,
+    "matriculas_ativas": 2,
+    "matriculas_concluidas": 0,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 2,
+    "numero_matricula": 20230002,
+    "nome": "Bruno Oliveira",
+    "email": "bruno.oliveira@example.com",
+    "data_nascimento": "2000-11-20",
+    "data_ingresso": "2023-03-01",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 63,
+        "curso_id": 2,
+        "data_matricula": "2023-03-05",
+        "status": "concluido",
+        "nota": 8.75,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "MAT201",
+          "nome": "Cálculo I",
+          "descricao": "Derivadas e integrais básicas",
+          "creditos": 4,
+          "capacidade": 50,
+          "categoria": "Matemática"
+        }
+      },
+      {
+        "matricula_id": 64,
+        "curso_id": 6,
+        "data_matricula": "2023-08-10",
+        "status": "concluido",
+        "nota": 9.1,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "PROG101",
+          "nome": "Introdução à Programação",
+          "descricao": "Lógica de programação e algoritmos",
+          "creditos": 4,
+          "capacidade": 80,
+          "categoria": "Programação"
+        }
+      }
+    ],
+    "total_matriculas": 2,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 2,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 3,
+    "numero_matricula": 20230003,
+    "nome": "Carla Pereira",
+    "email": "carla.pereira@example.com",
+    "data_nascimento": "1999-07-05",
+    "data_ingresso": "2022-08-15",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 65,
+        "curso_id": 1,
+        "data_matricula": "2022-08-20",
+        "status": "concluido",
+        "nota": 7.5,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "MAT101",
+          "nome": "Matemática Básica",
+          "descricao": "Fundamentos de álgebra e aritmética",
+          "creditos": 4,
+          "capacidade": 60,
+          "categoria": "Matemática"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 1,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 4,
+    "numero_matricula": 20230004,
+    "nome": "Diego Costa",
+    "email": "diego.costa@example.com",
+    "data_nascimento": "2002-02-28",
+    "data_ingresso": "2024-02-10",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 66,
+        "curso_id": 3,
+        "data_matricula": "2024-02-12",
+        "status": "matriculado",
+        "nota": 0.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "FIS101",
+          "nome": "Física Geral",
+          "descricao": "Cinemática, dinâmica e termodinâmica",
+          "creditos": 4,
+          "capacidade": 45,
+          "categoria": "Ciências"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 1,
+    "matriculas_concluidas": 0,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 5,
+    "numero_matricula": 20230005,
+    "nome": "Érica Santos",
+    "email": "erica.santos@example.com",
+    "data_nascimento": "1998-09-09",
+    "data_ingresso": "2021-01-20",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 67,
+        "curso_id": 11,
+        "data_matricula": "2021-02-01",
+        "status": "concluido",
+        "nota": 8.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "MAT301",
+          "nome": "Álgebra Linear",
+          "descricao": "Vetores, matrizes e sistemas lineares",
+          "creditos": 4,
+          "capacidade": 45,
+          "categoria": "Matemática"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 1,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 6,
+    "numero_matricula": 20230006,
+    "nome": "Fábio Rodrigues",
+    "email": "fabio.rodrigues@example.com",
+    "data_nascimento": "2003-12-12",
+    "data_ingresso": "2024-09-01",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 68,
+        "curso_id": 6,
+        "data_matricula": "2024-09-01",
+        "status": "matriculado",
+        "nota": 0.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "PROG101",
+          "nome": "Introdução à Programação",
+          "descricao": "Lógica de programação e algoritmos",
+          "creditos": 4,
+          "capacidade": 80,
+          "categoria": "Programação"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 1,
+    "matriculas_concluidas": 0,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 7,
+    "numero_matricula": 20230007,
+    "nome": "Gabriela Lima",
+    "email": "gabriela.lima@example.com",
+    "data_nascimento": "2001-03-30",
+    "data_ingresso": "2022-03-05",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 69,
+        "curso_id": 12,
+        "data_matricula": "2022-03-10",
+        "status": "concluido",
+        "nota": 7.8,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "EST101",
+          "nome": "Estatística",
+          "descricao": "Probabilidade e estatística descritiva",
+          "creditos": 4,
+          "capacidade": 55,
+          "categoria": "Matemática"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 1,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 8,
+    "numero_matricula": 20230008,
+    "nome": "Henrique Alves",
+    "email": "henrique.alves@example.com",
+    "data_nascimento": "1997-10-02",
+    "data_ingresso": "2020-02-01",
+    "status_aluno": "inativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 70,
+        "curso_id": 9,
+        "data_matricula": "2020-02-05",
+        "status": "concluido",
+        "nota": 6.9,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "HIS101",
+          "nome": "História Geral",
+          "descricao": "História antiga e moderna",
+          "creditos": 3,
+          "capacidade": 60,
+          "categoria": "Tecnologia"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 1,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 9,
+    "numero_matricula": 20230009,
+    "nome": "Isabela Moreira",
+    "email": "isabela.moreira@example.com",
+    "data_nascimento": "2002-06-17",
+    "data_ingresso": "2023-09-01",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 71,
+        "curso_id": 14,
+        "data_matricula": "2023-09-03",
+        "status": "matriculado",
+        "nota": 0.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "WEB101",
+          "nome": "Desenvolvimento Web",
+          "descricao": "HTML, CSS, JavaScript básicos",
+          "creditos": 3,
+          "capacidade": 80,
+          "categoria": "Programação"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 1,
+    "matriculas_concluidas": 0,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 10,
+    "numero_matricula": 20230010,
+    "nome": "João Martins",
+    "email": "joao.martins@example.com",
+    "data_nascimento": "1999-01-22",
+    "data_ingresso": "2022-09-01",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 72,
+        "curso_id": 7,
+        "data_matricula": "2022-09-05",
+        "status": "concluido",
+        "nota": 8.4,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "BD101",
+          "nome": "Banco de Dados",
+          "descricao": "Modelagem relacional e SQL",
+          "creditos": 4,
+          "capacidade": 50,
+          "categoria": "Programação"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 1,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 11,
+    "numero_matricula": 20230011,
+    "nome": "Kátia Fernandes",
+    "email": "katia.fernandes@example.com",
+    "data_nascimento": "2000-04-04",
+    "data_ingresso": "2023-03-01",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 73,
+        "curso_id": 6,
+        "data_matricula": "2023-03-02",
+        "status": "concluido",
+        "nota": 7.2,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "PROG101",
+          "nome": "Introdução à Programação",
+          "descricao": "Lógica de programação e algoritmos",
+          "creditos": 4,
+          "capacidade": 80,
+          "categoria": "Programação"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 1,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 12,
+    "numero_matricula": 20230012,
+    "nome": "Lucas Silva",
+    "email": "lucas.silva@example.com",
+    "data_nascimento": "2004-08-21",
+    "data_ingresso": "2024-02-15",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 74,
+        "curso_id": 6,
+        "data_matricula": "2024-02-20",
+        "status": "matriculado",
+        "nota": 0.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "PROG101",
+          "nome": "Introdução à Programação",
+          "descricao": "Lógica de programação e algoritmos",
+          "creditos": 4,
+          "capacidade": 80,
+          "categoria": "Programação"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 1,
+    "matriculas_concluidas": 0,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 13,
+    "numero_matricula": 20230013,
+    "nome": "Mariana Rocha",
+    "email": "mariana.rocha@example.com",
+    "data_nascimento": "1998-12-02",
+    "data_ingresso": "2021-09-01",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 75,
+        "curso_id": 2,
+        "data_matricula": "2021-09-10",
+        "status": "concluido",
+        "nota": 9.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "MAT201",
+          "nome": "Cálculo I",
+          "descricao": "Derivadas e integrais básicas",
+          "creditos": 4,
+          "capacidade": 50,
+          "categoria": "Matemática"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 1,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 14,
+    "numero_matricula": 20230014,
+    "nome": "Nicolas Freitas",
+    "email": "nicolas.freitas@example.com",
+    "data_nascimento": "2001-11-11",
+    "data_ingresso": "2022-01-10",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 76,
+        "curso_id": 1,
+        "data_matricula": "2022-01-12",
+        "status": "concluido",
+        "nota": 6.5,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "MAT101",
+          "nome": "Matemática Básica",
+          "descricao": "Fundamentos de álgebra e aritmética",
+          "creditos": 4,
+          "capacidade": 60,
+          "categoria": "Matemática"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 1,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 15,
+    "numero_matricula": 20230015,
+    "nome": "Olivia Castro",
+    "email": "olivia.castro@example.com",
+    "data_nascimento": "2003-05-25",
+    "data_ingresso": "2024-03-01",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 77,
+        "curso_id": 20,
+        "data_matricula": "2024-03-02",
+        "status": "matriculado",
+        "nota": 0.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "PROJ101",
+          "nome": "Gestão de Projetos",
+          "descricao": "Planejamento e controle de projetos",
+          "creditos": 3,
+          "capacidade": 60,
+          "categoria": "Humanas"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 1,
+    "matriculas_concluidas": 0,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 16,
+    "numero_matricula": 20230016,
+    "nome": "Paulo Gomes",
+    "email": "paulo.gomes@example.com",
+    "data_nascimento": "1996-07-19",
+    "data_ingresso": "2019-08-01",
+    "status_aluno": "inativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 78,
+        "curso_id": 10,
+        "data_matricula": "2019-08-05",
+        "status": "cancelado",
+        "nota": 0.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "ECO101",
+          "nome": "Economia Básica",
+          "descricao": "Princípios de economia",
+          "creditos": 3,
+          "capacidade": 70,
+          "categoria": "Tecnologia"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 0,
+    "matriculas_canceladas": 1
+  },
+  {
+    "aluno_id": 17,
+    "numero_matricula": 20230017,
+    "nome": "Quésia Pinto",
+    "email": "quesia.pinto@example.com",
+    "data_nascimento": "2002-09-30",
+    "data_ingresso": "2023-03-01",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 79,
+        "curso_id": 19,
+        "data_matricula": "2023-03-05",
+        "status": "matriculado",
+        "nota": 0.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "EMP101",
+          "nome": "Empreendedorismo",
+          "descricao": "Noções de criação de startups",
+          "creditos": 2,
+          "capacidade": 80,
+          "categoria": "Humanas"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 1,
+    "matriculas_concluidas": 0,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 18,
+    "numero_matricula": 20230018,
+    "nome": "Rafael Duarte",
+    "email": "rafael.duarte@example.com",
+    "data_nascimento": "1999-02-14",
+    "data_ingresso": "2020-03-01",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [
+      {
+        "matricula_id": 80,
+        "curso_id": 4,
+        "data_matricula": "2020-03-02",
+        "status": "concluido",
+        "nota": 7.0,
+        "criado_em": "2025-11-12 14:08:36",
+        "curso_info": {
+          "codigo": "BIO101",
+          "nome": "Biologia Geral",
+          "descricao": "Conceitos fundamentais de biologia",
+          "creditos": 3,
+          "capacidade": 40,
+          "categoria": "Ciências"
+        }
+      }
+    ],
+    "total_matriculas": 1,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 1,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 19,
+    "numero_matricula": 20230019,
+    "nome": "Sofia Nunes",
+    "email": "sofia.nunes@example.com",
+    "data_nascimento": "2004-01-03",
+    "data_ingresso": "2024-02-01",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [],
+    "total_matriculas": 0,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 0,
+    "matriculas_canceladas": 0
+  },
+  {
+    "aluno_id": 20,
+    "numero_matricula": 20230020,
+    "nome": "Tiago Barros",
+    "email": "tiago.barros@example.com",
+    "data_nascimento": "2000-06-06",
+    "data_ingresso": "2022-09-15",
+    "status_aluno": "ativo",
+    "criado_em": "2025-11-12 13:15:48",
+    "matriculas": [],
+    "total_matriculas": 0,
+    "matriculas_ativas": 0,
+    "matriculas_concluidas": 0,
+    "matriculas_canceladas": 0
+  }
+]

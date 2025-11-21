@@ -1,0 +1,32 @@
+{
+  "aluno_id": 3,
+  "numero_matricula": 20230003,
+  "nome": "Carla Pereira",
+  "email": "carla.pereira@example.com",
+  "data_nascimento": "1999-07-05",
+  "data_ingresso": "2022-08-15",
+  "status_aluno": "ativo",
+  "criado_em": "2025-11-12 13:15:48",
+  "matriculas": [
+    {
+      "matricula_id": 65,
+      "curso_id": 1,
+      "data_matricula": "2022-08-20",
+      "status": "concluido",
+      "nota": 7.5,
+      "criado_em": "2025-11-12 14:08:36",
+      "curso_info": {
+        "codigo": "MAT101",
+        "nome": "Matemática Básica",
+        "descricao": "Fundamentos de álgebra e aritmética",
+        "creditos": 4,
+        "capacidade": 60,
+        "categoria": "Matemática"
+      }
+    }
+  ],
+  "total_matriculas": 1,
+  "matriculas_ativas": 0,
+  "matriculas_concluidas": 1,
+  "matriculas_canceladas": 0
+}

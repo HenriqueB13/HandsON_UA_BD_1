@@ -1,0 +1,32 @@
+{
+  "aluno_id": 4,
+  "numero_matricula": 20230004,
+  "nome": "Diego Costa",
+  "email": "diego.costa@example.com",
+  "data_nascimento": "2002-02-28",
+  "data_ingresso": "2024-02-10",
+  "status_aluno": "ativo",
+  "criado_em": "2025-11-12 13:15:48",
+  "matriculas": [
+    {
+      "matricula_id": 66,
+      "curso_id": 3,
+      "data_matricula": "2024-02-12",
+      "status": "matriculado",
+      "nota": 0.0,
+      "criado_em": "2025-11-12 14:08:36",
+      "curso_info": {
+        "codigo": "FIS101",
+        "nome": "Física Geral",
+        "descricao": "Cinemática, dinâmica e termodinâmica",
+        "creditos": 4,
+        "capacidade": 45,
+        "categoria": "Ciências"
+      }
+    }
+  ],
+  "total_matriculas": 1,
+  "matriculas_ativas": 1,
+  "matriculas_concluidas": 0,
+  "matriculas_canceladas": 0
+}

@@ -1,0 +1,48 @@
+{
+  "aluno_id": 2,
+  "numero_matricula": 20230002,
+  "nome": "Bruno Oliveira",
+  "email": "bruno.oliveira@example.com",
+  "data_nascimento": "2000-11-20",
+  "data_ingresso": "2023-03-01",
+  "status_aluno": "ativo",
+  "criado_em": "2025-11-12 13:15:48",
+  "matriculas": [
+    {
+      "matricula_id": 63,
+      "curso_id": 2,
+      "data_matricula": "2023-03-05",
+      "status": "concluido",
+      "nota": 8.75,
+      "criado_em": "2025-11-12 14:08:36",
+      "curso_info": {
+        "codigo": "MAT201",
+        "nome": "Cálculo I",
+        "descricao": "Derivadas e integrais básicas",
+        "creditos": 4,
+        "capacidade": 50,
+        "categoria": "Matemática"
+      }
+    },
+    {
+      "matricula_id": 64,
+      "curso_id": 6,
+      "data_matricula": "2023-08-10",
+      "status": "concluido",
+      "nota": 9.1,
+      "criado_em": "2025-11-12 14:08:36",
+      "curso_info": {
+        "codigo": "PROG101",
+        "nome": "Introdução à Programação",
+        "descricao": "Lógica de programação e algoritmos",
+        "creditos": 4,
+        "capacidade": 80,
+        "categoria": "Programação"
+      }
+    }
+  ],
+  "total_matriculas": 2,
+  "matriculas_ativas": 0,
+  "matriculas_concluidas": 2,
+  "matriculas_canceladas": 0
+}

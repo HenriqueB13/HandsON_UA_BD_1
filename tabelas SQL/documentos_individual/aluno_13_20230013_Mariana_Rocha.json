@@ -1,0 +1,32 @@
+{
+  "aluno_id": 13,
+  "numero_matricula": 20230013,
+  "nome": "Mariana Rocha",
+  "email": "mariana.rocha@example.com",
+  "data_nascimento": "1998-12-02",
+  "data_ingresso": "2021-09-01",
+  "status_aluno": "ativo",
+  "criado_em": "2025-11-12 13:15:48",
+  "matriculas": [
+    {
+      "matricula_id": 75,
+      "curso_id": 2,
+      "data_matricula": "2021-09-10",
+      "status": "concluido",
+      "nota": 9.0,
+      "criado_em": "2025-11-12 14:08:36",
+      "curso_info": {
+        "codigo": "MAT201",
+        "nome": "Cálculo I",
+        "descricao": "Derivadas e integrais básicas",
+        "creditos": 4,
+        "capacidade": 50,
+        "categoria": "Matemática"
+      }
+    }
+  ],
+  "total_matriculas": 1,
+  "matriculas_ativas": 0,
+  "matriculas_concluidas": 1,
+  "matriculas_canceladas": 0
+}

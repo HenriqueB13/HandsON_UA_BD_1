@@ -1,0 +1,32 @@
+{
+  "aluno_id": 11,
+  "numero_matricula": 20230011,
+  "nome": "Kátia Fernandes",
+  "email": "katia.fernandes@example.com",
+  "data_nascimento": "2000-04-04",
+  "data_ingresso": "2023-03-01",
+  "status_aluno": "ativo",
+  "criado_em": "2025-11-12 13:15:48",
+  "matriculas": [
+    {
+      "matricula_id": 73,
+      "curso_id": 6,
+      "data_matricula": "2023-03-02",
+      "status": "concluido",
+      "nota": 7.2,
+      "criado_em": "2025-11-12 14:08:36",
+      "curso_info": {
+        "codigo": "PROG101",
+        "nome": "Introdução à Programação",
+        "descricao": "Lógica de programação e algoritmos",
+        "creditos": 4,
+        "capacidade": 80,
+        "categoria": "Programação"
+      }
+    }
+  ],
+  "total_matriculas": 1,
+  "matriculas_ativas": 0,
+  "matriculas_concluidas": 1,
+  "matriculas_canceladas": 0
+}

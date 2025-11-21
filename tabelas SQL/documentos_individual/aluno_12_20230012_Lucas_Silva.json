@@ -1,0 +1,32 @@
+{
+  "aluno_id": 12,
+  "numero_matricula": 20230012,
+  "nome": "Lucas Silva",
+  "email": "lucas.silva@example.com",
+  "data_nascimento": "2004-08-21",
+  "data_ingresso": "2024-02-15",
+  "status_aluno": "ativo",
+  "criado_em": "2025-11-12 13:15:48",
+  "matriculas": [
+    {
+      "matricula_id": 74,
+      "curso_id": 6,
+      "data_matricula": "2024-02-20",
+      "status": "matriculado",
+      "nota": 0.0,
+      "criado_em": "2025-11-12 14:08:36",
+      "curso_info": {
+        "codigo": "PROG101",
+        "nome": "Introdução à Programação",
+        "descricao": "Lógica de programação e algoritmos",
+        "creditos": 4,
+        "capacidade": 80,
+        "categoria": "Programação"
+      }
+    }
+  ],
+  "total_matriculas": 1,
+  "matriculas_ativas": 1,
+  "matriculas_concluidas": 0,
+  "matriculas_canceladas": 0
+}

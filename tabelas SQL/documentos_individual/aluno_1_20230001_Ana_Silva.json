@@ -1,0 +1,48 @@
+{
+  "aluno_id": 1,
+  "numero_matricula": 20230001,
+  "nome": "Ana Silva",
+  "email": "ana.silva@example.com",
+  "data_nascimento": "2001-05-14",
+  "data_ingresso": "2023-03-01",
+  "status_aluno": "ativo",
+  "criado_em": "2025-11-12 13:15:48",
+  "matriculas": [
+    {
+      "matricula_id": 61,
+      "curso_id": 6,
+      "data_matricula": "2024-03-01",
+      "status": "matriculado",
+      "nota": 0.0,
+      "criado_em": "2025-11-12 14:08:36",
+      "curso_info": {
+        "codigo": "PROG101",
+        "nome": "Introdução à Programação",
+        "descricao": "Lógica de programação e algoritmos",
+        "creditos": 4,
+        "capacidade": 80,
+        "categoria": "Programação"
+      }
+    },
+    {
+      "matricula_id": 62,
+      "curso_id": 7,
+      "data_matricula": "2024-03-02",
+      "status": "matriculado",
+      "nota": 0.0,
+      "criado_em": "2025-11-12 14:08:36",
+      "curso_info": {
+        "codigo": "BD101",
+        "nome": "Banco de Dados",
+        "descricao": "Modelagem relacional e SQL",
+        "creditos": 4,
+        "capacidade": 50,
+        "categoria": "Programação"
+      }
+    }
+  ],
+  "total_matriculas": 2,
+  "matriculas_ativas": 2,
+  "matriculas_concluidas": 0,
+  "matriculas_canceladas": 0
+}
